@@ -1,6 +1,14 @@
 /Go.App/packages
 /Go.App/*.suo
-/Go.App/Go.App/obj
 /Go.App/Go.App/bin
+/Go.App/Go.App/obj
 /Go.App/Go.App/csx
 /Go.App/Go.App/*.user
+/Go.App/GoApp/bin
+/Go.App/GoApp/obj
+/Go.App/GoApp/csx
+/Go.App/GoApp/*.user
+/Go.App/GoApp.Tests/obj
+/Go.App/GoApp.Tests/bin
+/Go.App/GoApp.Tests/csx
+/Go.App/GoApp.Tests/*.user
