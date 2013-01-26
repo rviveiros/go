@@ -1,0 +1,6 @@
+/Go.App/packages
+/Go.App/*.suo
+/Go.App/Go.App/obj
+/Go.App/Go.App/bin
+/Go.App/Go.App/csx
+/Go.App/Go.App/*.user
