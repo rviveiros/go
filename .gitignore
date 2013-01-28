@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /Go.App/packages
 /Go.App/*.suo
 /Go.App/Go.App/bin
@@ -12,3 +13,11 @@
 /Go.App/GoApp.Tests/bin
 /Go.App/GoApp.Tests/csx
 /Go.App/GoApp.Tests/*.user
+=======
+/Go.App/packages
+/Go.App/*.suo
+/Go.App/Go.App/obj
+/Go.App/Go.App/bin
+/Go.App/Go.App/csx
+/Go.App/Go.App/*.user
+>>>>>>> 84c628054bb0e29387fcf436fe3a3589a312ed0f
