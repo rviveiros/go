@@ -30,35 +30,3 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "Go.App", "Go.App\Go.App.ccproj", "{25DFA7F1-D736-41A9-8E32-A0583F20ED03}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoApp", "GoApp\GoApp.csproj", "{BEF455DE-B4A1-48FC-B04C-3F2636D45213}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoApp.Tests", "GoApp.Tests\GoApp.Tests.csproj", "{B89F1EAA-313B-4FC6-BE0B-7AA3873A86AB}"
-EndProject
-Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{25DFA7F1-D736-41A9-8E32-A0583F20ED03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{25DFA7F1-D736-41A9-8E32-A0583F20ED03}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{25DFA7F1-D736-41A9-8E32-A0583F20ED03}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{25DFA7F1-D736-41A9-8E32-A0583F20ED03}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BEF455DE-B4A1-48FC-B04C-3F2636D45213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BEF455DE-B4A1-48FC-B04C-3F2636D45213}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BEF455DE-B4A1-48FC-B04C-3F2636D45213}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BEF455DE-B4A1-48FC-B04C-3F2636D45213}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B89F1EAA-313B-4FC6-BE0B-7AA3873A86AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B89F1EAA-313B-4FC6-BE0B-7AA3873A86AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B89F1EAA-313B-4FC6-BE0B-7AA3873A86AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B89F1EAA-313B-4FC6-BE0B-7AA3873A86AB}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-EndGlobal
