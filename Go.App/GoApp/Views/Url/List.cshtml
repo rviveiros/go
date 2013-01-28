@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ﻿@model IEnumerable<GoApp.Models.Url>
 
 @{
@@ -55,61 +54,3 @@
 }
 
 </table>
-=======
-﻿@model IEnumerable<GoApp.Models.Url>
-
-@{
-    ViewBag.Title = "URLs";
-}
-
-<h2>URLs</h2>
-
-<p>
-    @Html.ActionLink("Create New", "Add")
-</p>
-<table>
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.Key)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Address)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Timestamp)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.PartitionKey)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.RowKey)
-        </th>
-        <th></th>
-    </tr>
-
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Key)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Address)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Timestamp)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.PartitionKey)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.RowKey)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
-            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
-        </td>
-    </tr>
-}
-
-</table>
->>>>>>> 84c628054bb0e29387fcf436fe3a3589a312ed0f
